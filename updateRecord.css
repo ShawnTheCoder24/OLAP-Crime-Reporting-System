@@ -1,0 +1,92 @@
+body
+{
+    background-image: url(secondPicture.jfif);
+}
+
+.main
+{
+    width: 80%;
+    float:left;
+    margin-top:1%;
+    margin-left:10%;
+    background-color: #1c2e4a;
+    text-align: center;
+}
+label
+{
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-size: larger;
+}
+h1
+{
+    color:#FFC000;
+}
+p
+{
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.inputField
+{
+    width:50%;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-family: sans-serif;
+    font-size: large;
+}
+#role
+{
+    width: 50%;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+span
+{
+    font-family: sans-serif;
+    font-size: medium;
+    color:#FFC000;
+}
+#update
+{
+    padding:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 12%;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: #FFC000;
+    color:#1c2e4a;
+}
+#back
+{
+    padding:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 12%;
+    font-family: sans-serif;
+    font-size: medium;
+    border: none;
+    font-weight: bold;
+    background-color: #8b0000;
+    color:#ffffff;
+}
+
+#update:hover
+{
+    background-color: #1c39bb;
+    color:#ffffff;
+}
+
+#back:hover
+{
+    background-color: #1c39bb;
+    color: #ffffff;
+}

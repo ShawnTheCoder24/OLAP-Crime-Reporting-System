@@ -1,0 +1,152 @@
+body
+{
+    background-color:#1c2e4a;
+}
+
+#map
+{
+    float:left;
+    margin-left:10%;
+    margin-bottom:2%;
+    width: 80%;
+    height: 700px;
+}
+
+#reports
+{
+    float:left;
+    margin-top:1%;
+    width:100%;
+    font-family:sans-serif;
+    background-color: #f8f8ff;
+    text-align:center;
+}
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:80%;
+    margin-left:10%;
+    margin-bottom:1%;
+}
+th, td
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1%;
+}
+tr:nth-child(even) 
+{
+    background-color: #D6EEEE;
+}
+
+#crimeBarGraph, #crimeAreasBarGraph
+{
+    width:50%;
+    max-width:1200px;
+    margin-left: 7%;
+}
+
+#nameSection
+{
+    background-color: #ffffff;
+    text-align:center;
+    font-family: sans-serif;
+}
+#logoHeader, #dashboard
+{
+    background-color: #1c2e4a;
+}
+
+.logo
+{
+    margin-left:1%;
+    padding-top:1%;
+    padding-bottom:1%;
+    width:13%;
+}
+#navigationAdmin
+{
+    width:80%;
+    float:right;
+    margin-top:6%;
+}
+#navigation
+{
+    width:45%;
+    float:right;
+    margin-top:6%;
+    margin-right:2%;
+}
+
+#navigation a, #navigationAdmin a
+{
+    margin-top:5%;
+    margin-left:1%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding:10px 12px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+#navigation a:hover, #navigationAdmin a:hover
+{
+    background-color: #FFC000;
+    color:#1c2e4a;
+}
+
+#navigation a.current, #navigationAdmin a.current
+{
+    background-color: #0f4880;
+}
+
+#navigation a.current:hover, #navigationAdmin a.current:hover
+{
+    color:#ffffff;
+}
+
+.login
+{
+    margin-top:5%;
+    margin-left:1%;
+    font-size: medium;
+    border: none;
+    padding:10px 22px;
+    background-color: #ffffff;
+    color:#1c2e4a;
+}
+
+.login:hover
+{
+    background-color: #FFC000;
+}
+
+.logout
+{
+    margin-top:5%;
+    margin-left:1%;
+    font-size: medium;
+    border: none;
+    padding:10px 22px;
+    background-color: #8b0000;
+    color:#ffffff;
+}
+
+.logout:hover
+{
+    background-color: #FFC000;
+    color:#1c2e4a;
+}
+
+#mapIntro
+{
+    background-color: #0f4880;
+    color:#FFC000;
+    text-align: center;
+    margin-bottom:2%;
+    margin-top:1%;
+    padding:1%;
+}
